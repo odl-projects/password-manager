@@ -1,0 +1,327 @@
+I need you to produce a complete Chapters 1–5 final-year project report based on the supplied application, source code, presentation and institutional template.
+
+PROJECT INFORMATION
+
+Project folder:
+[INSERT PROJECT FOLDER PATH]
+
+Frontend folder:
+[INSERT FRONTEND PATH]
+
+Backend folder:
+[INSERT BACKEND PATH]
+
+Authoritative project presentation:
+[INSERT PPT/PPTX PATH]
+
+Document to update, if one exists:
+[INSERT EXISTING DOCX PATH]
+
+Final-year-project template to follow:
+[INSERT TEMPLATE DOCX PATH]
+
+Required final document name:
+[INSERT FINAL DOCX NAME]
+
+Student names and identification numbers:
+[INSERT DETAILS]
+
+Institution, programme and department:
+[INSERT DETAILS]
+
+Citation style:
+[IEEE / APA / Harvard]
+
+EXPECTED LENGTH
+
+Produce a substantial academic report, normally 50–70 pages, depending on the amount of available evidence. Chapters must contain detailed academic discussion, not short summaries.
+
+PRIMARY INSTRUCTIONS
+
+1. Focus on producing the document, not modifying the application.
+
+2. Inspect the frontend and backend source code before writing implementation claims.
+
+3. Extract the official project title, objectives and research questions from the supplied presentation. Do not invent additional objectives or research questions.
+
+4. Preserve the exact number and wording of objectives and research questions found in the presentation unless I specifically request corrections.
+
+5. Follow the supplied final-year-project template exactly, including:
+   - Page size and margins
+   - Cover-page arrangement
+   - Front matter
+   - Heading hierarchy
+   - Fonts, colours and spacing
+   - Page numbering
+   - Table formatting
+   - Figure captions
+   - Table of contents
+   - List of figures
+   - Reference formatting
+
+6. Write Chapters 1–5 as an implementation-based research report:
+   - Chapter 1: Introduction
+   - Chapter 2: Literature Review
+   - Chapter 3: Methodology and System Design
+   - Chapter 4: Implementation, Testing and Results
+   - Chapter 5: Conclusions and Recommendations
+
+7. Do not exaggerate the implementation. Clearly distinguish:
+   - Implemented functionality
+   - Partially implemented functionality
+   - Planned functionality
+   - Recommended future work
+
+8. Do not claim that a technology, security feature, algorithm, test or workflow is implemented unless it is visible in the code or confirmed by successful execution.
+
+9. When the presentation and source code disagree, use the presentation for the official objectives, but use the source code for implementation findings. Explain the difference honestly.
+
+10. Use authoritative and relevant references. Include enough sources for a full research report, normally at least 35–50 references. Prefer:
+    - Peer-reviewed papers
+    - Official standards
+    - Government legislation
+    - Official framework documentation
+    - Recognised security organisations
+    - Authoritative technical documentation
+
+11. Every factual technical claim that requires external support must have an in-text citation. Every in-text citation must have a corresponding reference-list entry.
+
+12. Create diagrams from the actual source code where possible, including:
+    - Conceptual framework
+    - Use-case diagram
+    - System architecture
+    - Entity-relationship diagram
+    - Encryption/upload sequence
+    - Download/decryption sequence
+    - Audit or security workflow
+    - Frontend navigation flow
+
+13. Diagrams must reflect actual models, fields, relationships, API endpoints and application behaviour.
+
+14. Attempt to run the application and automated tests. If successful:
+    - Create safe demonstration accounts
+    - Use non-sensitive demonstration data
+    - Exercise the principal workflow
+    - Capture clear screenshots
+    - Insert screenshots into the appropriate sections
+    - Capture test results as evidence
+
+15. Screenshots should show meaningful results, such as:
+    - Login or registration
+    - Key generation or identity setup
+    - File selection and sending
+    - Successful encryption/upload
+    - Recipient inbox
+    - Successful decryption/download
+    - Audit-event display
+    - Audit-chain verification
+    - Backend test results
+    - Frontend test results
+
+16. Do not expose passwords, private keys, tokens, personal email addresses or sensitive files in screenshots.
+
+17. If an image cannot be produced, insert a clearly labelled location containing only:
+    “Placeholder image:”
+    Then explain separately what failed and what image should eventually be inserted.
+
+18. Every inserted figure must have:
+    - A numbered caption
+    - A short explanation
+    - A reference in the surrounding discussion
+    - Sufficient resolution to be readable when printed
+
+19. Connect the report throughout:
+    - Objectives must map to implementation evidence.
+    - Research questions must be answered using findings.
+    - Tests must support the stated results.
+    - Conclusions must follow from Chapters 3 and 4.
+    - Recommendations must address identified limitations.
+
+20. Maintain only one generated final Word report in the project’s root folder. Preserve the supplied source documents and templates, but remove obsolete generated drafts after the final document passes validation.
+
+ITERATIVE WORKFLOW
+
+Complete the work in the following controlled passes.
+
+PASS 1 — SOURCE AND EVIDENCE INVENTORY
+
+Inspect:
+- Presentation
+- Existing proposal/report
+- Final-year-project template
+- Frontend folder
+- Backend folder
+- README files
+- Models and database configuration
+- API endpoints
+- Cryptographic modules
+- Authentication implementation
+- Tests
+- Existing screenshots or diagrams
+
+Report:
+- Official title
+- Official objectives
+- Official research questions
+- Implemented technologies
+- Main workflows
+- Available tests
+- Missing or contradictory information
+- Features mentioned in the proposal but absent from the source code
+
+Do not begin the full report until this inventory is complete.
+
+PASS 2 — DOCUMENT STRUCTURE
+
+Reproduce the template structure and prepare:
+- Cover page
+- Declaration
+- Approval page
+- Dedication
+- Acknowledgements
+- Abstract
+- Acronyms
+- Table of contents
+- List of figures
+- Complete Chapters 1–5 heading structure
+- References section
+
+Confirm that all required template sections are represented.
+
+PASS 3 — CHAPTERS 1 AND 2
+
+Write a detailed:
+- Project background
+- Problem statement
+- Exact objectives
+- Exact research questions
+- Scope and limitations
+- Significance
+- Conceptual framework
+- Literature review
+- Related approaches
+- Standards and theoretical foundation
+- Research gap
+
+Ensure Chapter 2 is analytical rather than a collection of definitions.
+
+PASS 4 — CHAPTER 3 AND DIAGRAMS
+
+Write the methodology based on the real project:
+- Development methodology
+- Requirements analysis
+- Functional requirements
+- Non-functional requirements
+- Architecture
+- Data design
+- API design
+- Security design
+- Tools and technologies
+- Testing methodology
+- Threat model
+- Ethical and legal considerations
+- Validity and reproducibility
+
+Create and insert the required code-derived diagrams.
+
+PASS 5 — APPLICATION EXECUTION AND EVIDENCE
+
+Attempt to:
+- Install or reuse the project dependencies
+- Run backend tests
+- Run frontend tests
+- Build the frontend
+- Start the backend
+- Start the frontend
+- Complete the principal user workflow
+- Capture screenshots
+
+Record exact results, warnings and failures. Do not silently omit failed operations.
+
+PASS 6 — CHAPTERS 4 AND 5
+
+Write Chapter 4 using actual implementation evidence:
+- Frontend implementation
+- Backend implementation
+- Database implementation
+- Security mechanisms
+- Processing flows
+- Test results
+- Interface screenshots
+- Objective-to-implementation traceability
+- Limitations
+- Results against each research question
+
+Write Chapter 5 using the exact objectives and research questions:
+- Summary of findings
+- Achievement of each objective
+- Conclusion
+- Recommendations
+- Areas for future research
+- Answer to each research question
+- Prioritised implementation roadmap
+- Final conclusion
+
+PASS 7 — REFERENCES AND ACADEMIC QUALITY
+
+Check:
+- Citation consistency
+- Reference numbering
+- Missing citations
+- Duplicate references
+- Citation-to-reference matching
+- Academic tone
+- Grammar
+- Unsupported claims
+- Excessive repetition
+- Correct distinction between prototype and production security
+
+PASS 8 — DOCUMENT AND VISUAL QA
+
+Refresh:
+- Table of contents
+- List of figures
+- Figure numbering
+- Page numbers
+- Cross-references
+
+Render the complete Word document to pages and visually inspect every page.
+
+Check:
+- No clipped text
+- No blank unintended pages
+- No overflowing tables
+- No split captions
+- No isolated headings
+- No stretched diagrams
+- No unreadable screenshots
+- Consistent margins
+- Correct page numbering
+- Correct chapter starts
+- Abstract and keywords correctly positioned
+- References formatted consistently
+
+PASS 9 — FINAL VALIDATION AND CLEANUP
+
+Before delivery, verify:
+- Exactly the required number of objectives
+- Exactly the required number of research questions
+- No unwanted placeholder instructions
+- All figures are numbered
+- All figures have captions
+- All tables fit the page
+- The Word file opens without repair errors
+- The report has sufficient depth
+- All five chapters are present
+- References are substantial
+- The final file follows the template
+- Only one generated final report remains
+
+FINAL HANDOVER
+
+Provide:
+1. The final Word document.
+2. The final page count, word count, figure count and reference count.
+3. Automated-test results.
+4. A short list of operations that failed or could not be completed.
+5. A short list of important implementation limitations identified from the code.

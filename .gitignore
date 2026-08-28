@@ -1,0 +1,74 @@
+# ---------------------------------------------------------------------------
+# Secrets & environment
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------------------------------------------------------------------------
+# Node
+# ---------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# ---------------------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------------------
+# dist/ is the Vite-built renderer that Electron loads at runtime.
+dist/
+dist-ssr/
+build/
+out/
+release/
+.vite/
+*.local
+
+# Native module build artifacts (better-sqlite3 is rebuilt against Electron)
+prebuilds/
+*.node
+bin/
+
+# ---------------------------------------------------------------------------
+# Vault data — NEVER commit a vault, even encrypted
+# ---------------------------------------------------------------------------
+vault.db
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.vault
+*.vaultbackup
+*.log
+
+# ---------------------------------------------------------------------------
+# Office temp / lock files (the proposal and report docs stay tracked)
+# ---------------------------------------------------------------------------
+~$*
+*.tmp
+*.~*
+
+# ---------------------------------------------------------------------------
+# Test / coverage artifacts
+# ---------------------------------------------------------------------------
+coverage/
+.nyc_output/
+
+# ---------------------------------------------------------------------------
+# Editors & OS
+# ---------------------------------------------------------------------------
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
